@@ -8,7 +8,7 @@ import missingno as msno
 file_path = r"C:\Users\Shreyash Musmade\Desktop\Practical\MIDS\MIDS_Prac-1\titanic3.xls"
 
 try:
-    df = pd.read_excel(file_path, engine='xlrd')  # Ensure 'xlrd' is used for .xls files
+    df = pd.read_excel(r"C:\Users\Shreyash Musmade\Desktop\Practical\MIDS\MIDS_Prac-1\titanic_preprocessed.xlsx")
     print("\n[INFO] Dataset Loaded Successfully!")  
 except Exception as e:
     print("\n[ERROR] Failed to Load Dataset:", e)
